@@ -5,3 +5,8 @@
 #t13{
 	text-align:right;
 }
+table{
+	border:1px solid black;
+	cellspacing:1px;
+	cellpadding:1px;
+}
