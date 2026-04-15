@@ -7,6 +7,12 @@
 }
 table{
 	border:1px solid black;
-	cellspacing:1px;
+	border-spacing:1px;
 	cellpadding:1px;
+}
+.green{
+	background-color:green;
+}
+.blue{
+	background-color:blue;
 }
