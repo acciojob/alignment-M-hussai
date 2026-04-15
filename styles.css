@@ -1,18 +1,44 @@
-/*  your css code here. If applicable */
-#t12{
-	text-align:center;
-}
-#t13{
-	text-align:right;
-}
-table{
-	border:1px solid black;
-	border-spacing:1px;
-	cellpadding:1px;
-}
-.green{
-	background-color:green;
-}
-.blue{
-	background-color:blue;
-}
+<style>
+        /* General Styles */
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse; /* Essential for 1px solid borders */
+            margin: 20px auto; /* Centers the table on the page */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+            border-spacing: 1px;
+            min-width: 50px;
+            height: 30px;
+        }
+
+        /* Class Requirements */
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        /* Placeholder for Table 3 image sizing */
+        #t-image img {
+            display: block;
+            margin: auto;
+            max-width: 200px;
+        }
+    </style>
