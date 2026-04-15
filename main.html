@@ -1,54 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Assignment 3</title>
-    
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <h1>HTML Assignment #3</h1>
-
-    <table id="table-1" class="middle">
-        <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
-        </tr>
-        <tr class="center"> <td id="t11">left</td>
-            <td id="t12">center</td>
-            <td id="t13" class="right">right</td> </tr>
-        <tr>
-            <td>left</td>
-            <td class="center">center</td>
-            <td class="right">right</td>
-        </tr>
-    </table>
-
-    <table id="table-2" class="middle">
-        <tr>
-            <td id="t21" colspan="6">Row 1 - Single Cell</td>
-        </tr>
-        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-    </table>
-
-    <table id="table-3" class="middle">
-        <tr class="green">
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td id="t-image">
-                <img src="https://via.placeholder.com/150" alt="Assignment Image">
-            </td>
-        </tr>
-        <tr class="blue">
-            <td>&nbsp;</td>
-        </tr>
-    </table>
+	<!-- the entire body must be written by student -->
+	<center><caption><b>HTML Assignment #3</b></caption></center>
+	<table class="middle" id="table-1" border="1px" cellspacing="1px" width="100%">
+		<tbody>
+			<tr>
+				<td id="t11">left</td>
+				<td id="t12" class="center">center</td>
+				<td id="t13" class="right">right</td>
+			</tr>
+			<tr>
+				<td id="t11">left</td>
+				<td id="t12" class="center">center</td>
+				<td id="t13" class="right">right</td>
+			</tr>
+			<tr>
+				<td id="t11">left</td>
+				<td id="t12" class="center">center</td>
+				<td id="t13" class="right">right</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<br>
+	<table id="table-2" class="middle" border="1px" cellspacing="1px" cellpadding="10px" width="100%">
+		<tbody>
+				<tr>
+					<td colspan="6" id="t21"></td>
+				</tr>
+				<tr>
+					<td rowspan="4"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td colspan="3" rowspan="2"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td colspan="6" ></td>
+				</tr>
+		</tbody>
+	</table>
+	<br>
+	<br>
+	<table id="table-3" class="middle"  cellpadding="10px" width="100%">
+		<tbody>
+			<tr class="green">
+				<td></td>
+			</tr>
+			<tr>
+				<td id="t-image"><center><img src="https://e1.pxfuel.com/desktop-wallpaper/314/623/desktop-wallpaper-nature-high-quality-for-pc-highest-resolution.jpg" width="200px"></center></td>
+			</tr>
+			<tr class="blue">
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
